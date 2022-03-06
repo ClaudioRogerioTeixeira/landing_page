@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Venha ter momentos inesquecível no Thermas com as pessoas que vc realmente ama.">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <title>Thermas - Faça sua reserva Agora!</title>
+</head>
+<body>
+  <div id="container-imagem">
+    <header class="cabecalho">
+      <img class="cabecalho-image" src="./assets/logoThermas.png" alt="Logo Thermas">
+      <h2 class="cabecalho-h2">VENHA VIVER ESSA</h2>
+    </header>
+    <main class="conteudo">
+      <section class="conteudo-principal">
+        <h1 class="conteudo-principal-titulo">INCRÍVEL EXPERIÊNCIA EM OLÍMPIA</h1>
+        <h2 class="conteudo-principal-subtitulo">1 A 05 DE MARÇO DE 2022</h2>
+      </section>    
+      <form action="">
+        <section class="conteudo-form">
+          <div class="divcol1">
+            <div>
+              <label for="label-name">Nome:</label>
+              <input type="text" id="nome" name="nome" placeholder="" required oninvalid="this.setCustomValidity('Campo requerido')" onchange="try{setCustomValidity('')}catch(e){}"> 
+            </div>
+            <div>
+              <label for="label-tel">Tel.:</label>
+              <input type="tel" id="tel" name="tel" placeholder="" required oninvalid="this.setCustomValidity('Campo requerido')" onchange="try{setCustomValidity('')}catch(e){}">             
+            </div>
+          </div>
+          <div class="divcol2">
+            <div>
+            <label for="label-email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="" required oninvalid="this.setCustomValidity('Campo requerido')" onchange="try{setCustomValidity('')}catch(e){}">
+            </div>
+            <div>
+            <!-- <div class="g-recaptcha" data-sitekey="6LcKobgeAAAAAE4LwAHErQCgbTzkgg_jTadRMwse"></div> -->
+            <img class="captcha" src="./assets/captcha.png" alt="Imagem Captcha">            
+            </div>
+          </div>
+        </section>
+        <button class="btn-reserva" type="submit">FAÇA SUA RESERVA</button>       
+      </form>
+    </main>
+    <footer class="footer">
+      <!-- <img class="footer-image" src="./assets/backgroundfooter.svg" alt="Imagem Rodapé"> -->
+    </footer>
+  </div>
+  <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+</body>
+</html>
