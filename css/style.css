@@ -207,4 +207,13 @@ button:hover {
     border-radius: 5px;
   }
 
+  #container-imagem {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* adicionando imagem de fundo */
+    background-image: url('../assets/backgroundBody.jpg');
+    /* background-size: cover; */
+  }
+
 }
