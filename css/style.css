@@ -209,7 +209,7 @@ button:hover {
 
   #container-imagem {
     position: relative;
-    height: 130vh;
+    height: 120vh;
     width: 100vw;
     /* adicionando imagem de fundo */
     background-image: url('../assets/backgroundBody.jpg');
