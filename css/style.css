@@ -7,18 +7,35 @@
   text-decoration: none;
 }
 
-body {
-  margin: 0;
-  font-family: 'Bellota', cursive;
-}
-
-#container-imagem {
+/* #container-imagem {
   position: relative;
   height: 100vh;
   width: 100vw;
-  /* adicionando imagem de fundo */
   background-image: url('../assets/backgroundBody.jpg');
   background-size: cover;
+} */
+
+html {
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  font-family: 'Bellota', cursive;
+  background-image: url('../assets/backgroundBody.jpg');
+  background-position: top center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:  cover;
+  max-width: 100%;
+  /* width: auto; romava esse width */
+  /* height: auto; não use "auto" coloque um valor de100% ou 100vh */
+  height: 100%;
+  /* overflow: hidden; */
+  display: block;
 }
 
 .cabecalho {
@@ -207,13 +224,12 @@ button:hover {
     border-radius: 5px;
   }
 
-  #container-imagem {
+  /* #container-imagem {
     position: relative;
     height: 120vh;
     width: 100vw;
-    /* adicionando imagem de fundo */
     background-image: url('../assets/backgroundBody.jpg');
     background-size: cover;
-  }
+  } */
 
 }
