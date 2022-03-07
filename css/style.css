@@ -7,14 +7,6 @@
   text-decoration: none;
 }
 
-/* #container-imagem {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  background-image: url('../assets/backgroundBody.jpg');
-  background-size: cover;
-} */
-
 html {
   height: 100%;
 }
@@ -50,7 +42,8 @@ body{
 .cabecalho-h2 {
   /* font-size: 3vw; */
   font-size: clamp(1em, 3em, 2.5em);
-  color: #186C84;
+  /* color: #186C84; */
+  color: white;
 }
 
 main{
@@ -220,13 +213,5 @@ button:hover {
     cursor: pointer;
     border-radius: 5px;
   }
-
-  /* #container-imagem {
-    position: relative;
-    height: 120vh;
-    width: 100vw;
-    background-image: url('../assets/backgroundBody.jpg');
-    background-size: cover;
-  } */
 
 }
