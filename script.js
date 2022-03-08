@@ -1,8 +1,21 @@
 let btnReserva = document.querySelector(".btn-reserva");
+let  inputNome  = document.querySelectorAll('#nome');
+console.log('inputNome: ', inputNome);
+console.log('inputNome: ', inputNome.values);
+
+function recaptchaCallBack(e) {
+  console.log('event: ', e)
+  var btnReserva = document.querySelector('#btn-reserva');
+  btnReserva.removeAttribute('disabled');
+  btnReserva.style.cursor = 'pointer';
+}
 
 btnReserva.addEventListener("click", function(event) { 
   event.preventDefault();
- 
+
+  let captcha = document.querySelector('.g-recaptcha');
+  console.log('captcha: ', captcha);
+
   Toastify({
     text: "Enviado com Sucesso",
     duration: 3000,

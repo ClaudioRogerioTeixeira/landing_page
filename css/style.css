@@ -151,6 +151,10 @@ button:hover {
   border: 2px solid #186C84;
 }
 
+.btn-reserva {
+  cursor: not-allowed;
+}
+
 .footer {
   width: 100%;
   position: absolute;
