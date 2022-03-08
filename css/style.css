@@ -116,8 +116,11 @@ input:focus {
   /* border-bottom: 1px solid #186C84; */
 }
 
-.g-recaptcha {
-  max-width: 150px;
+.g-recaptcha {  
+  transform:scale(0.77);
+  -webkit-transform:scale(0.77);
+  transform-origin:0 0;
+  -webkit-transform-origin:0 0;
 }
 
 .conteudo-form img{
