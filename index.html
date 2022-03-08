@@ -30,17 +30,24 @@
               <label for="label-tel">Tel.:</label>
               <input type="tel" id="tel" name="tel" placeholder="" required oninvalid="this.setCustomValidity('Campo requerido')" onchange="try{setCustomValidity('')}catch(e){}">             
             </div>
+            <div>
+              <label for="label-email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="" required oninvalid="this.setCustomValidity('Campo requerido')" onchange="try{setCustomValidity('')}catch(e){}">
+            </div>
+            <div>
+              <div class="g-recaptcha" data-sitekey="6Ld3DsMeAAAAAFNDgvA3-_5pY9u7YliY3vRsFoEJ"></div>
+            </div>
           </div>
-          <div class="divcol2">
+          <!-- <div class="divcol2">
             <div>
             <label for="label-email">Email:</label>
             <input type="email" id="email" name="email" placeholder="" required oninvalid="this.setCustomValidity('Campo requerido')" onchange="try{setCustomValidity('')}catch(e){}">
             </div>
             <div>
             <div class="g-recaptcha" data-sitekey="6Ld3DsMeAAAAAFNDgvA3-_5pY9u7YliY3vRsFoEJ"></div>
-            <!-- <img class="captcha" src="./assets/captcha.png" alt="Imagem Captcha">             -->
+            <img class="captcha" src="./assets/captcha.png" alt="Imagem Captcha">
             </div>
-          </div>
+          </div> -->
         </section>
         <button class="btn-reserva" type="submit">FAÇA SUA RESERVA</button>       
       </form>

@@ -74,22 +74,25 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 450px;
-  height: 260px;
+  width: 400px;
+  height: 450px;
   background-color:rgba(255,255,255,0.8);
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  margin-bottom: 50px;
 }
 
 .conteudo-form {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: 1fr;
 }
 
 .divcol1 {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
+  width: 100%;
 }
 
 .divcol2 {
@@ -108,6 +111,7 @@ input {
   border: 0;
   background: rgba(0,0,0,0);
   border-bottom: 1px solid #186C84;
+  width: 100%;
 }
 
 input:focus {
@@ -117,10 +121,10 @@ input:focus {
 }
 
 .g-recaptcha {  
-  transform:scale(0.77);
+  /* transform:scale(0.77);
   -webkit-transform:scale(0.77);
   transform-origin:0 0;
-  -webkit-transform-origin:0 0;
+  -webkit-transform-origin:0 0; */
 }
 
 .conteudo-form img{
