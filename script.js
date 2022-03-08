@@ -16,8 +16,13 @@ btnReserva.addEventListener("click", function(event) {
     }
   }).showToast()
 
-  nome.value = '';
-  tel.value = '';
-  email.value = '';
+  // nome.value = '';
+  // tel.value = '';
+  // email.value = '';
+
+  const inputs  = document.querySelectorAll('input');
+  for (let i = 0; i < inputs.length; i++) {
+    document.getElementById(inputs[i].name).value = '';
+  }
   
 });
