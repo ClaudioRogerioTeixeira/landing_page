@@ -116,6 +116,10 @@ input:focus {
   /* border-bottom: 1px solid #186C84; */
 }
 
+.g-recaptcha {
+  max-width: 150px;
+}
+
 .conteudo-form img{
   width: 100%;
 }
