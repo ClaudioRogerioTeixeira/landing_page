@@ -3,8 +3,8 @@ let  inputNome  = document.querySelectorAll('#nome');
 console.log('inputNome: ', inputNome);
 console.log('inputNome: ', inputNome.values);
 
-function recaptchaCallBack(e) {
-  console.log('event: ', e)
+function recaptchaCallback() {
+  alert('Acessou recaptcha...');
   var btnReserva = document.querySelector('#btn-reserva');
   btnReserva.removeAttribute('disabled');
   btnReserva.style.cursor = 'pointer';
