@@ -81,6 +81,20 @@ form {
   margin-bottom: 80px;
 }
 
+.form-control.error input {
+  border: 3px solid #DB5A5A;
+}
+
+.form-control.success input {
+  border: 3px solid #008000;
+}
+
+
+.sizeImg {
+  width: 22px !important;
+  height: 22px !important;
+}
+
 .conteudo-form {
   display: grid;
   /* grid-template-columns: 1fr 1fr; */
@@ -91,8 +105,8 @@ form {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  width: 100%;
+  gap: 15px;
+  /* width: 100%; */
 }
 
 .divcol2 {
@@ -149,6 +163,7 @@ button:hover {
   color: #186C84;
   background-color: #ffffff;
   border: 2px solid #186C84;
+  transition: 0.3s;
 }
 
 .btn-reserva {
