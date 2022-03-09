@@ -75,7 +75,7 @@ form {
   flex-direction: column;
   align-items: center;
   width: 400px;
-  height: 450px;
+  height: 420px;
   background-color:rgba(255,255,255,0.8);
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
   margin-bottom: 80px;
@@ -201,7 +201,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     width: 350px;
-    height: 480px;
+    height: 500px;
     background-color:rgba(255,255,255,0.8);
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
     margin-bottom: 70px;
