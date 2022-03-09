@@ -4,13 +4,6 @@ const nome = document.querySelector('#nome');
 const tel = document.querySelector('#tel');
 const email = document.querySelector('#email');
 
-var smallNome  = document.querySelector('.smallNome');
-smallNome.style.visibility = "hidden";
-var smallTel  = document.querySelector('.smallTel');
-smallTel.style.visibility = "hidden";
-var smallEmail  = document.querySelector('.smallEmail');
-smallEmail.style.visibility = "hidden";
-
 function recaptchaCallback() {
   return new Promise(function() {
       btnReserva.removeAttribute('disabled');
@@ -83,7 +76,9 @@ function checkInputs() {
 function errorValidation(input, message) {
   const formControl = input.parentElement;
   const small = formControl.querySelector('small');
+  const icon = formControl.querySelector('.iconEImg');
   small.style.visibility = "visible";
+  icon.style.visibility = "visible";
   small.innerText = message;
   formControl.className = 'form-control error';
   return false;
@@ -92,6 +87,8 @@ function errorValidation(input, message) {
 function successValidation(input) {
   const formControl = input.parentElement;
   const small = formControl.querySelector('small');
+  const icon = formControl.querySelector('.iconEImg');
   small.style.visibility = "hidden";
+  icon.style.visibility = "hidden";
   formControl.className = 'form-control success';
 }
