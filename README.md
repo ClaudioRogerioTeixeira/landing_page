@@ -9,4 +9,4 @@ Criação de Landing Page utilizando as tecnologias:
 
 # Link:
 
-- https://landing-page-turismo.herokuapp.com/
+- <a href="https://landing-page-turismo.herokuapp.com/" target="_blank">Landing Page Heroku</a>
