@@ -6,3 +6,7 @@ Criação de Landing Page utilizando as tecnologias:
 - CSS 
 - FLEXBOX
 - CSS GRID.
+
+# Link:
+
+- https://landing-page-turismo.herokuapp.com/
